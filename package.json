@@ -1,0 +1,15 @@
+{
+  "name": "minute-diff",
+  "version": "1.0.0",
+  "description": "Get the difference of two dates in minutes",
+  "main": "index.js",
+  "author": "Nik Sudan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niksudan/minute-diff"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
