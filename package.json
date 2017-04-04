@@ -1,6 +1,6 @@
 {
   "name": "minute-diff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the difference of two dates in minutes",
   "main": "index.js",
   "author": "Nik Sudan",

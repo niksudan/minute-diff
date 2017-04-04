@@ -1,8 +1,12 @@
 const moment = require('moment');
 
-module.exports = (fromDateRaw, toDateRaw = new Date()) => {
+module.exports = (fromDateRaw, toDateRaw = false) => {
   const fromDate = moment(fromDateRaw);
-  const toDate = moment(toDateRaw);
+  if (toDateRaw === false) {
+    const toDate = moment();
+  } else {
+    const toDate = moment(toDateRaw);
+  }
   if (!fromDate || !toDate) {
     return false;
   }
