@@ -1,6 +1,6 @@
 {
   "name": "minute-diff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the difference of two dates in minutes",
   "main": "index.js",
   "author": "Nik Sudan",
@@ -10,6 +10,7 @@
     "url": "https://github.com/niksudan/minute-diff"
   },
   "dependencies": {
+    "is-date-object": "^1.0.1",
     "moment": "^2.18.1"
   }
 }
