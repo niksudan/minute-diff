@@ -1,5 +1,7 @@
 # minute-diff
 
+[![npm](https://img.shields.io/npm/v/minute-diff.svg)](https://www.npmjs.com/package/minute-diff)
+
 Get the difference of two dates in minutes
 
 ```js
